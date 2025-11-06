@@ -7,7 +7,7 @@ import LiquidEther from "./LiquidEther";
 
 const Title = () => {
   return (
-    <div>
+    <div className="pt-20">
       <div style={{ width: "100%", height: "100%", position: "absolute" }}>
         <LiquidEther
           colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
