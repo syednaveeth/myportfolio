@@ -36,7 +36,7 @@ const Aboutme = () => {
   };
 
   return (
-    <div className="relative text-black px-10 py-10 overflow-hidden ">
+    <div className="relative text-black px-10 py-25 overflow-hidden ">
       <div className="absolute inset-1 -z-40">
         <BackgroundBubbles />
       </div>

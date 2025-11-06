@@ -36,7 +36,7 @@ const Contact = () => {
 
       {/* animated heading */}
       <motion.h1
-        className="relative pl-5  text-5xl md:text-6xl font-extrabold text-white tracking-wide drop-shadow-[0_0_15px_rgba(255,255,255,0.25)] pt-24"
+        className="relative pl-5  text-5xl md:text-6xl font-extrabold text-white tracking-wide drop-shadow-[0_0_15px_rgba(255,255,255,0.25)] pt-36"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.5, ease: "easeOut" }}

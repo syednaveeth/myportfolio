@@ -7,24 +7,24 @@ const Header = () => {
 
   return (
     <header className="bg-white text-white fixed top-0 left-0 w-full shadow-md z-50">
-      <div className="flex justify-between items-center px-6 md:px-10 py-5">
+      <div className="flex justify-between items-center px-6 md:px-10 py-5 relative">
         {/* Logo / Brand Name */}
         <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-black bg-clip-text text-transparent">
           Syed Naveeth S
         </h1>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8 text-lg font-medium bg-gradient-to-r from-blue-500 to-black bg-clip-text text-transparent">
-          <Link to="/" className="hover:opacity-80 transition">
+        {/* Centered Navigation */}
+        <nav className="hidden md:flex absolute left-4/8 transform -translate-x-1/2 space-x-8 text-lg font-medium bg-gradient-to-r from-blue-500 to-black bg-clip-text text-transparent">
+          <Link to="/" className="hover:text-blue-700">
             Home
           </Link>
-          <Link to="/about" className="hover:opacity-80 transition">
+          <Link to="/about" className="hover:text-blue-700">
             About
           </Link>
-          <Link to="/contact" className="hover:opacity-80 transition">
-            Contact
+          <Link to="/contact" className="hover:text-blue-700">
+            Certifications
           </Link>
-          <Link to="/project" className="hover:opacity-80 transition">
+          <Link to="/project" className="hover:text-blue-700">
             Project
           </Link>
         </nav>
